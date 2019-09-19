@@ -1,0 +1,44 @@
+body {
+    justify-content: center;
+}
+h1 {
+    font-family: Arial;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+.boundary {
+    border: 1px solid black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+#output {
+    font-size: 60px;
+    text-align: right;
+    height: 70px;
+    padding: 7px;
+    background-color: rgb(240, 240, 240);
+    border: 2px solid white;
+    color: black;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row div {
+    width: 75px;
+    font-size: 32px;
+    text-align: center;
+    padding: 2px;
+    border: 2px solid white;
+    background-color: lightskyblue;
+}
+.row div.operator {
+    background-color: rgb(106, 90, 205);
+}
